@@ -1,0 +1,12 @@
+
+ <div class="slider-container">
+    <div>
+         <img  [src]="img" class="rounded-1" id="img" style="height: 550px;width: 800px;"/>
+    </div>
+
+    <button class="btn"[disabled]="prevFlag" (click)="movePrev()">Prev</button>
+    <button class="btn" [disabled]="nextFlag" (click)="moveNext()">Next</button>
+    <button class="btn" [disabled]="slideFlag" (click)="slide()">Slide</button>
+    <button class="btn" [disabled]="stopFlag" (click)="stopSlide()">Stop</button>
+      
+</div> 
