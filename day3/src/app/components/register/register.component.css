@@ -1,0 +1,41 @@
+div{
+    border: 2px solid gray;
+    width: 80%;
+    margin: 4% auto;
+    padding: 2%;
+    border-radius: 20px;
+}
+.form {
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+.form input{
+    height: 30px;
+    border: 1px solid gray;
+    padding: 8px;
+    border-radius: 20px;
+    margin-bottom: 2%;
+
+}
+.form button {
+    background-color: palevioletred;
+    width: 30%;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    margin: 0 auto;
+    padding: 8px;
+    color: white;
+}
+h2{
+    text-align: center;
+    color: lightslategray;
+}
+p{
+    display: none;
+}
+.danger_class {
+    display:block;
+    color: red;
+}

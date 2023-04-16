@@ -1,0 +1,13 @@
+div{
+    text-align: center;
+}
+div:first-of-type{
+    width: 70%;
+    border: 2px solid gray;
+    border-radius: 20px;
+    margin: 2% auto;
+}
+h1 {
+    text-align: center;
+    color: palevioletred;
+}

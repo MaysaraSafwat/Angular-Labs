@@ -1,0 +1,13 @@
+<div>
+    <h2>Add New Student</h2>
+
+    <div class="form">
+        <input type="text" name="name" placeholder="Name" [(ngModel)]="studentName"/>
+        <p  [ngClass]="studentName.length <= 3  && studentName ? 'danger_class' : ' '">Name is not valid</p>
+        <input type="text" name="name" placeholder="Age" [(ngModel)]="studentAge"/>
+        <p [ngClass]="(+studentAge < 20  || +studentAge > 40 ) && studentAge ? 'danger_class' : ' '">Age is not valid</p>
+
+
+        <button type="submit" (click)="add()">Add</button>
+    </div>
+</div>
